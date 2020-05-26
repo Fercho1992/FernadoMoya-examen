@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <ImageView
+        android:id="@+id/imgRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/lblBienvenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/bienvenido" />
+
+    <TextView
+        android:id="@+id/lblNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/nombreCompleto" />
+
+    <EditText
+        android:id="@+id/txtNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblMontoInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/montoInicial" />
+
+    <EditText
+        android:id="@+id/txtMontoInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lblPagoMensual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/pagoMensual" />
+
+    <TextView
+        android:id="@+id/lblApagarMensual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCalcularMonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calcularMonto"
+        android:text="@string/calculoPagoMensual" />
+
+    <Button
+        android:id="@+id/btnGuardarRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="enviarRegistro"
+        android:text="@string/guardarRegistro" />
+
+</LinearLayout>

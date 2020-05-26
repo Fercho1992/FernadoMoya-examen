@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FernadoMoya-examen</string>
+    <string name="encuesta">Responda la siguientes encuesta</string>
+    <string name="titulo">Login</string>
+    <string name="usuario">Usuario: </string>
+    <string name="contrasena">Contraseña: </string>
+    <string name="acceso">Acceder</string>
+    <string name="bienvenido">Juan Jose Flores</string>
+    <string name="enviarrespuestas">Enviar respuestas</string>
+    <string name="pregunta1"><b>1. ¿Por qué eligió este centro?</b></string>
+    <string name="pregunta2"><b>2. ¿Qué deportes practica?</b></string>
+    <string name="pregunta3"><b>3. Está interesado en aprender otro idioma aparte de inglés</b></string>
+    <string name="si">Si</string>
+    <string name="no">No</string>
+    <string name="futbol">Futbol</string>
+    <string name="tennis">Tennis</string>
+    <string name="basketball">Basketball</string>
+    <string name="respuestas">Sus respuestas son: </string>
+    <string name="montoInicial">Monto inicial: </string>
+    <string name="pagoMensual">Pago mensual: </string>
+    <string name="calculoPagoMensual">Calcular </string>
+    <string name="guardarRegistro">GUARDAR</string>
+    <string name="nombreCompleto">Nombre: </string>
+    <string name="totalPago">Total</string>
+
+</resources>
