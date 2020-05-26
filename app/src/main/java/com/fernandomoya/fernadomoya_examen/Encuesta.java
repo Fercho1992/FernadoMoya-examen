@@ -49,6 +49,7 @@ public class Encuesta extends AppCompatActivity {
             respuestas.putExtra("respuestaSi", rdNo.getText().toString());
         }
         if (cbfutbol.isChecked()==true) {
+
             respuestas.putExtra("respuestaFutbol", cbfutbol.getText().toString());
         }
         if (cbtennis.isChecked()==true) {
